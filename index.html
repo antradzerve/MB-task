@@ -1,37 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Magebit Login page</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="main.css">
-    <script src="main.js"></script>
 </head>
+
 <body>
     
     <div class="container" id="container">
         <div class="form-container sign-up-container">
-
+            <form action="#">
+                <h1>Sign Up</h1>
+                <hr class="small-divider" />
+                <input type="text" placeholder="Name" />
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+                <button>Sign Up</button>
+            </form>
         </div>
-        <div class="form-container sign-in-container">
-
+        <div class="form-container login-container">
+            <form action="#">
+                <h1>Login</h1>
+                <hr class="small-divider" />
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+                <button>Login</button>
+            </form>
         </div>
         <div class="overlay-container">
-
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Don't have an account?</h1>
+                    <hr class="small-divider" />
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi nam quia fugiat atque pariatur
+                        dolores, saepe libero ad.</p>
+                    <button class="ghost" id="signUp">SIGN UP</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Have an account?</h1>
+                    <hr class="small-divider" />
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <button class="ghost" id="login">LOGIN</button>
+                </div>
+            </div>
         </div>
     </div>
 
-
-
-    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+<script src="main.js"></script>
 </body>
+
 </html>
